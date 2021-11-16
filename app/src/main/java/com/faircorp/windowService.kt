@@ -22,9 +22,9 @@ class windowService {
             WindowDto(4, "Window 1", ROOMS[2], Status.CLOSED),
             WindowDto(5, "Window 2", ROOMS[2], Status.CLOSED),
         )
-    }
 
-    fun findById(id: Long) = WINDOWS.firstOrNull { it.id == id}
+        fun findById(id: Long) = WINDOWS.firstOrNull { it.id == id}
+    }
 
     fun findAll() = WINDOWS.sortedBy { it.name }
 }
