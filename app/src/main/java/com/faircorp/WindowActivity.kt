@@ -21,8 +21,10 @@ class WindowActivity : BasicActivity() {
         if (window != null) {
             findViewById<TextView>(R.id.txt_window_name).text = window.name
             findViewById<TextView>(R.id.txt_room_name).text = window.room.name
-            findViewById<TextView>(R.id.txt_window_current_temperature).text = window.room.currentTemperature?.toString()
-            findViewById<TextView>(R.id.txt_window_target_temperature).text = window.room.targetTemperature?.toString()
+            findViewById<TextView>(R.id.txt_window_current_temperature).text =
+                window.room.currentTemperature?.toString()
+            findViewById<TextView>(R.id.txt_window_target_temperature).text =
+                window.room.targetTemperature?.toString()
             findViewById<TextView>(R.id.txt_window_status).text = window.status.toString()
         }
 

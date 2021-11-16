@@ -15,8 +15,9 @@ open class BasicActivity : AppCompatActivity() {
         inflater.inflate(R.menu.menu, menu)
         return true
     }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item.itemId){
+        when (item.itemId) {
             R.id.menu_windows -> startActivity(
                 Intent(this, WindowsActivity::class.java)
             )

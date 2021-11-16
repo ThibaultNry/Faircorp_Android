@@ -8,7 +8,8 @@ import android.widget.TextView
 import com.faircorp.OnWindowSelectedListener
 import com.faircorp.R
 
-class WindowAdapter(val listener: OnWindowSelectedListener): RecyclerView.Adapter<WindowAdapter.WindowViewHolder>() {
+class WindowAdapter(val listener: OnWindowSelectedListener) :
+    RecyclerView.Adapter<WindowAdapter.WindowViewHolder>() {
 
     inner class WindowViewHolder(view: View) : RecyclerView.ViewHolder(view) { // (2)
         val name: TextView = view.findViewById(R.id.txt_window_name)
