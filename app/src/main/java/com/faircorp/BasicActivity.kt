@@ -18,7 +18,7 @@ open class BasicActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             R.id.menu_windows -> startActivity(
-                Intent(this, ActivityWindows::class.java)
+                Intent(this, WindowsActivity::class.java)
             )
             R.id.menu_website -> startActivity(
                 Intent(Intent.ACTION_VIEW, Uri.parse("https://dev-mind.fr"))
