@@ -1,8 +1,4 @@
-package com.faircorp
-
-import com.faircorp.model.RoomDto
-import com.faircorp.model.Status
-import com.faircorp.model.WindowDto
+package com.faircorp.model
 
 class windowService {
 
