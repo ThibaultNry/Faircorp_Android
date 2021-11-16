@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Faircorp">
         <activity
-            android:name=".ActivityWindows"
+            android:name=".WindowsActivity"
             android:exported="false" />
         <activity
             android:name=".WindowActivity"
