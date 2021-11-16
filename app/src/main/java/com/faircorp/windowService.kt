@@ -4,7 +4,7 @@ import com.faircorp.model.RoomDto
 import com.faircorp.model.Status
 import com.faircorp.model.WindowDto
 
-class WindowService {
+class windowService {
 
     companion object {
         // Fake rooms
@@ -14,7 +14,7 @@ class WindowService {
             RoomDto(3, "Room EF 7.10", 21.2, 20.0)
         )
 
-        // Fake lights
+        // Fake windows
         val WINDOWS: List<WindowDto> = listOf(
             WindowDto(1, "Entry Window", ROOMS[0], Status.CLOSED),
             WindowDto(2, "Back Window", ROOMS[0], Status.CLOSED),

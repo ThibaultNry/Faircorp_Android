@@ -19,5 +19,7 @@ class WindowActivity : BasicActivity() {
         val param = intent.getStringExtra(Constants.WINDOW_NAME_PARAM)
         val windowName = findViewById<TextView>(R.id.txt_window_name)
         windowName.text = param
+
+
     }
 }

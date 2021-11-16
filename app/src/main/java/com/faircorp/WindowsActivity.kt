@@ -11,7 +11,7 @@ import com.faircorp.model.WindowAdapter
 
 class WindowsActivity : BasicActivity(), OnWindowSelectedListener {
 
-    val windowService = WindowService() // (1)
+    val windowService = windowService() // (1)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
